@@ -3,7 +3,7 @@ import struct
 import random
 
 client_socket = socket.socket(socket.AF_INET,socket.SOCK_STREAM)
-client_socket.connect(('192.168.0.63', 4211)) 
+client_socket.connect(('192.168.0.63', 4211)) # IP 주소를 알맞게 변경하세요.
 
 while True :
     message = input('Enter command : ') # 명령어 입력
@@ -25,7 +25,7 @@ while True :
         sendBuffer = IF_SC500_header + IF_SC500_IP + IF_SC500_time + IF_SC500_objNum
 
         for i in range(data_objNum) :
-            data_objType = random.randrange(0, 3) # 0=사람, 1=차량, 2=트럭
+            data_objType = random.randrange(0, 15) # 0=미확인 객체, 1=타워 크레인, 2=갠트리 크레인, 3=스프레더, 4=선박, 5=리치스태커, 6=지게차, 7=야드 섀시, 8=야드 트럭, 9=기타 트럭, 10=차량, 11=조명 타워, 12=컨테이너, 13=컨테이너 홀더, 14=컨테이너 콘
             data_XAxis = random.uniform(1, 10)
             data_ZAxis = random.uniform(1, 10)
             randObjX = random.randrange(100, 1820)
