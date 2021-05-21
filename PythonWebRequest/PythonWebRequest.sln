@@ -1,0 +1,23 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31205.134
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "PythonWebRequest", "PythonWebRequest\PythonWebRequest.pyproj", "{8FBDF0C5-3B27-4D64-98BB-D71B798A6BE5}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8FBDF0C5-3B27-4D64-98BB-D71B798A6BE5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8FBDF0C5-3B27-4D64-98BB-D71B798A6BE5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {48D13C74-8213-4788-9EB7-0E97F252FA97}
+	EndGlobalSection
+EndGlobal
