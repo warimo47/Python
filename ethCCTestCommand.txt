@@ -1,0 +1,4 @@
+ethPackSignal(L"BCM_07_200ms", L"Lamp_AvTailLmpSta", L"On");
+ethPackSignal(L"BCM_07_200ms", L"Lamp_AvTailLmpSta", L"Off");
+ethPackSignal(L"CLU_02_100ms", L"CLU_LoFuelWrngSta", L"Low fuel Warning is on");
+ethPackSignal(L"CLU_02_100ms", L"CLU_LoFuelWrngSta", L"Low fuel Warning is off");
