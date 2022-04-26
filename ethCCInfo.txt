@@ -1,0 +1,13 @@
+ID			Msg		
+Length		Msg
+stbit				Sig // Big endian으로 바꿔야 함.
+bit_size			Sig
+valuation			Sig
+mac_src				Sig
+mac_dst		Msg
+vlan_id		Msg
+vlan_pri	Msg
+ip_src				Sig
+ip_dst		Msg
+port_src	Msg
+port_dst	Msg
