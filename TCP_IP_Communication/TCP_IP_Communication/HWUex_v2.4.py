@@ -3,7 +3,7 @@ import struct
 import random
 
 client_socket = socket.socket(socket.AF_INET,socket.SOCK_STREAM)
-client_socket.connect(('192.168.0.50', 4211)) 
+client_socket.connect(('192.168.0.93', 4211)) 
 
 while True :
     message = input('Enter command : ') # 명령어 입력
